@@ -77,7 +77,7 @@ COMPILATION:
 
 2. Windows
 	a) Please open a project file under "VC_files"
-	b) set Demo as a active project and build the demo
+	b) set Demo as a active project and build the demo in the release mode
 		- It will automatically copy the library (CCLayout.lib)
 		  into Lib directory.
 
