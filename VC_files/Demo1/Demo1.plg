@@ -1,0 +1,56 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: OpenCCL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\sungeui\LOCALS~1\Temp\RSP5D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /Fp"Release/OpenCCL.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\temp\temp\OpenCCL1[1].0.tar\OpenCCL\libsrc\LayoutGraph.cpp"
+"D:\temp\temp\OpenCCL1[1].0.tar\OpenCCL\libsrc\LayoutMetrics.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\sungeui\LOCALS~1\Temp\RSP5D.tmp" 
+Creating command line "xilink6.exe -lib /nologo /out:"../../Lib/OpenCCL.lib"  ".\Release\LayoutGraph.obj" ".\Release\LayoutMetrics.obj" "
+<h3>Output Window</h3>
+Compiling...
+LayoutGraph.cpp
+../../include\_hash_map.h(450) : warning C4355: 'this' : used in base member initializer list
+        C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\deque(104) : while compiling class-template member function '__thiscall my_hash_map<int,int,struct OpenCCL::SimpleIDHasher,struct OpenCCL::IDEqualCmp>::my_hash_map<int,int,struct OpenCCL::SimpleIDHasher,struct OpenCCL::IDEqualCmp>(unsigned int,const struct OpenCCL::SimpleIDHasher &,const struct OpenCCL::IDEqualCmp &,float)'
+../../include\_hash_map.h(451) : warning C4355: 'this' : used in base member initializer list
+        C:\Program Files\Microsoft Visual Studio\VC98\INCLUDE\deque(104) : while compiling class-template member function '__thiscall my_hash_map<int,int,struct OpenCCL::SimpleIDHasher,struct OpenCCL::IDEqualCmp>::my_hash_map<int,int,struct OpenCCL::SimpleIDHasher,struct OpenCCL::IDEqualCmp>(unsigned int,const struct OpenCCL::SimpleIDHasher &,const struct OpenCCL::IDEqualCmp &,float)'
+LayoutMetrics.cpp
+Creating library...
+xilib: executing 'C:\PROGRA~1\MICROS~3\VC98\Bin\lib.exe'
+<h3>
+--------------------Configuration: Demo1 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\sungeui\LOCALS~1\Temp\RSP5E.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "../../include" /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Release/Demo1.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\temp\temp\OpenCCL1[1].0.tar\OpenCCL\example\Demo.cpp"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\sungeui\LOCALS~1\Temp\RSP5E.tmp" 
+Creating temporary file "C:\DOCUME~1\sungeui\LOCALS~1\Temp\RSP5F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/Demo1.pdb" /machine:I386 /out:"Release/Demo1.exe" 
+".\Release\Demo.obj"
+"\temp\temp\OpenCCL1[1].0.tar\OpenCCL\Lib\OpenCCL.lib"
+]
+Creating command line "xilink6.exe @C:\DOCUME~1\sungeui\LOCALS~1\Temp\RSP5F.tmp"
+<h3>Output Window</h3>
+Compiling...
+Demo.cpp
+Linking...
+xilink6: executing 'C:\PROGRA~1\MICROS~3\VC98\Bin\link.exe'
+
+
+
+<h3>Results</h3>
+Demo1.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

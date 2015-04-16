@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "OpenCCL", "OpenCCL\OpenCCL.vcxproj", "{5CC9D711-83EE-4C14-B06B-1D377F70E047}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Demo1", "Demo1\Demo1.vcxproj", "{ED4F1DAE-8871-430F-9827-D1CE468CCD73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CC9D711-83EE-4C14-B06B-1D377F70E047}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5CC9D711-83EE-4C14-B06B-1D377F70E047}.Debug|Win32.Build.0 = Debug|Win32
+		{5CC9D711-83EE-4C14-B06B-1D377F70E047}.Release|Win32.ActiveCfg = Release|Win32
+		{5CC9D711-83EE-4C14-B06B-1D377F70E047}.Release|Win32.Build.0 = Release|Win32
+		{5CC9D711-83EE-4C14-B06B-1D377F70E047}.Template|Win32.ActiveCfg = Release|Win32
+		{5CC9D711-83EE-4C14-B06B-1D377F70E047}.Template|Win32.Build.0 = Release|Win32
+		{ED4F1DAE-8871-430F-9827-D1CE468CCD73}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ED4F1DAE-8871-430F-9827-D1CE468CCD73}.Debug|Win32.Build.0 = Debug|Win32
+		{ED4F1DAE-8871-430F-9827-D1CE468CCD73}.Release|Win32.ActiveCfg = Release|Win32
+		{ED4F1DAE-8871-430F-9827-D1CE468CCD73}.Release|Win32.Build.0 = Release|Win32
+		{ED4F1DAE-8871-430F-9827-D1CE468CCD73}.Template|Win32.ActiveCfg = Template|Win32
+		{ED4F1DAE-8871-430F-9827-D1CE468CCD73}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
