@@ -1,0 +1,532 @@
+﻿Build started 2018-04-13 오전 7:50:04.
+     1>Project "D:\sungeui\OpenCCL\metis-4.0\Lib\metis.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"../../metis-4.0/Lib" /ZI /nologo /W3 /WX- /Od /Oy- /D __VC__ /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /Gm /EHsc /RTC1 /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt balance.c bucketsort.c ccgraph.c coarsen.c compress.c debug.c estmem.c fm.c fortran.c frename.c graph.c initpart.c kmetis.c kvmetis.c kwayfm.c kwayrefine.c kwayvolfm.c kwayvolrefine.c match.c mbalance.c mbalance2.c mcoarsen.c memory.c mesh.c meshpart.c mfm.c mfm2.c mincover.c minitpart.c minitpart2.c mkmetis.c mkwayfmh.c mkwayrefine.c mmatch.c mmd.c mpmetis.c mrefine.c mrefine2.c mutil.c myqsort.c ometis.c parmetis.c pmetis.c pqueue.c refine.c separator.c sfm.c srefine.c stat.c subdomains.c timing.c util.c
+         util.c
+     1>d:\sungeui\openccl\metis-4.0\lib\util.c(26): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>d:\sungeui\openccl\metis-4.0\lib\util.c(29): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\sungeui\openccl\metis-4.0\lib\util.c(34): warning C4013: 'abort' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\util.c(416): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\util.c(469): warning C4013: 'rand' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\util.c(499): warning C4013: 'srand' undefined; assuming extern returning int
+         timing.c
+         subdomains.c
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(58): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(59): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(60): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(24): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(349): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(350): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(351): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(314): warning C4101: 'iii' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(314): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(753): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(885): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(895): warning C4101: 'myndegrees' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(895): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(895): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(1111): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(1050): warning C4101: 'other' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(1176): warning C4101: 'myndegrees' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(1176): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\subdomains.c(1176): warning C4101: 'jj' : unreferenced local variable
+         stat.c
+     1>d:\sungeui\openccl\metis-4.0\lib\stat.c(123): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\stat.c(23): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\stat.c(133): warning C4101: 'tmpptr' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\stat.c(132): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\stat.c(250): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\stat.c(258): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\stat.c(239): warning C4101: 'balance' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\stat.c(281): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         srefine.c
+     1>d:\sungeui\openccl\metis-4.0\lib\srefine.c(91): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\srefine.c(91): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\srefine.c(146): warning C4101: 'j' : unreferenced local variable
+         sfm.c
+     1>d:\sungeui\openccl\metis-4.0\lib\sfm.c(926): warning C4101: 'pass' : unreferenced local variable
+         separator.c
+     1>d:\sungeui\openccl\metis-4.0\lib\separator.c(40): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\separator.c(23): warning C4101: 'k' : unreferenced local variable
+         refine.c
+     1>d:\sungeui\openccl\metis-4.0\lib\refine.c(83): warning C4101: 'other' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\refine.c(79): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\refine.c(79): warning C4101: 'l' : unreferenced local variable
+         pqueue.c
+     1>d:\sungeui\openccl\metis-4.0\lib\pqueue.c(110): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\pqueue.c(140): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\pqueue.c(297): warning C4101: 'newnode' : unreferenced local variable
+         pmetis.c
+     1>d:\sungeui\openccl\metis-4.0\lib\pmetis.c(31): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\pmetis.c(73): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\pmetis.c(49): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\pmetis.c(118): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\pmetis.c(138): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\pmetis.c(142): warning C4244: 'function' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\pmetis.c(143): warning C4244: 'function' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\pmetis.c(105): warning C4101: 'j' : unreferenced local variable
+         parmetis.c
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(31): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(71): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(80): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(48): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(48): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(143): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(156): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(98): warning C4101: 'nflag' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(98): warning C4101: 'wflag' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(214): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(216): warning C4305: '=' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(196): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(290): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(302): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(265): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(265): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(348): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(360): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(361): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(323): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\parmetis.c(323): warning C4101: 'j' : unreferenced local variable
+         ometis.c
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(52): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(61): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(25): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(138): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(151): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(155): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(157): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(82): warning C4101: 'nflag' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(82): warning C4101: 'wflag' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(234): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(243): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(207): warning C4101: 'tvwgt' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(207): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(265): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(325): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(388): warning C4101: 'tmp' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(477): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(514): warning C4101: 'auxadjwgt' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(641): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(619): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ometis.c(665): warning C4101: 'mypart' : unreferenced local variable
+         myqsort.c
+     1>d:\sungeui\openccl\metis-4.0\lib\myqsort.c(83): warning C4101: 'ii' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\myqsort.c(213): warning C4101: 'ii' : unreferenced local variable
+         mutil.c
+         mrefine2.c
+         mrefine.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mrefine.c(39): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\mrefine.c(43): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\mrefine.c(60): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\mrefine.c(98): warning C4101: 'other' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mrefine.c(93): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mrefine.c(93): warning C4101: 'l' : unreferenced local variable
+         mpmetis.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(52): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(28): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(28): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(107): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(125): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(82): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(82): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(161): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(140): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(140): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(210): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(188): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(188): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(253): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(254): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(241): warning C4101: 'ncon' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(241): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(308): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(309): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(331): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(334): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(293): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mpmetis.c(385): warning C4101: 'i' : unreferenced local variable
+         mmd.c
+         mmatch.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mmatch.c(81): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mmatch.c(162): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mmatch.c(256): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mmatch.c(357): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mmatch.c(474): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mmatch.c(475): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mmatch.c(479): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mmatch.c(480): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+         mkwayrefine.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayrefine.c(91): warning C4101: 'l' : unreferenced local variable
+         Generating Code...
+         Compiling...
+         mkwayfmh.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayfmh.c(65): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayfmh.c(77): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayfmh.c(23): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayfmh.c(23): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayfmh.c(288): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayfmh.c(260): warning C4101: 'iii' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayfmh.c(260): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayfmh.c(260): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayfmh.c(595): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mkwayfmh.c(595): warning C4101: 'j' : unreferenced local variable
+         mkmetis.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mkmetis.c(52): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mkmetis.c(28): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mkmetis.c(28): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mkmetis.c(118): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\mkmetis.c(79): warning C4101: 'nvtxs' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mkmetis.c(79): warning C4101: 'j' : unreferenced local variable
+         minitpart2.c
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(73): warning C4013: 'rand' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(95): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(59): warning C4101: 'ncon' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(59): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(59): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(59): warning C4101: 'mincut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(59): warning C4101: 'from' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(59): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(110): warning C4101: 'ncon' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(110): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(110): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(110): warning C4101: 'mincut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(110): warning C4101: 'from' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(110): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(229): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(158): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart2.c(158): warning C4101: 'pass' : unreferenced local variable
+         minitpart.c
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(23): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(73): warning C4013: 'rand' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(81): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(95): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(59): warning C4101: 'ncon' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(59): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(59): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(59): warning C4101: 'mincut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(59): warning C4101: 'from' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(59): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(141): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(143): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(107): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(107): warning C4101: 'mincut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(107): warning C4101: 'from' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(107): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(248): warning C4013: 'SelectQueueOneWay' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(180): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\minitpart.c(180): warning C4101: 'pass' : unreferenced local variable
+         mincover.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mincover.c(118): warning C4013: '__GKfree' undefined; assuming extern returning int
+         mfm2.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm2.c(49): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm2.c(53): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm2.c(64): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm2.c(23): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm2.c(328): warning C4101: 'j' : unreferenced local variable
+         mfm.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm.c(48): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm.c(81): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm.c(118): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm.c(22): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm.c(309): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm.c(326): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm.c(329): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mfm.c(342): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         meshpart.c
+     1>d:\sungeui\openccl\metis-4.0\lib\meshpart.c(61): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\meshpart.c(101): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\meshpart.c(163): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         mesh.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(76): warning C4101: 'nedges' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(171): warning C4101: 'n' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(171): warning C4101: 'kkk' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(171): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(171): warning C4101: 'm' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(220): warning C4101: 'n' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(220): warning C4101: 'kkk' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(220): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(220): warning C4101: 'm' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(269): warning C4101: 'n' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(269): warning C4101: 'kkk' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(269): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(269): warning C4101: 'm' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(342): warning C4101: 'n' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(342): warning C4101: 'kkk' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(342): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mesh.c(342): warning C4101: 'm' : unreferenced local variable
+         memory.c
+     1>d:\sungeui\openccl\metis-4.0\lib\memory.c(89): warning C4013: '__GKfree' undefined; assuming extern returning int
+         mcoarsen.c
+         mbalance2.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mbalance2.c(24): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mbalance2.c(66): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mbalance2.c(75): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mbalance2.c(39): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mbalance2.c(39): warning C4101: 'pass' : unreferenced local variable
+         mbalance.c
+     1>d:\sungeui\openccl\metis-4.0\lib\mbalance.c(64): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mbalance.c(113): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mbalance.c(159): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\mbalance.c(38): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\mbalance.c(38): warning C4101: 'pass' : unreferenced local variable
+         match.c
+     1>d:\sungeui\openccl\metis-4.0\lib\match.c(205): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+         kwayvolrefine.c
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(48): warning C4244: 'function' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(74): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(134): warning C4101: 'oedegrees' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(131): warning C4101: 'minvol' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(131): warning C4101: 'kk' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(131): warning C4101: 'nbnd' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(131): warning C4101: 'ii' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(133): warning C4101: 'orinfo' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(131): warning C4101: 'pid' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(131): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(235): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(211): warning C4101: 'pid' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolrefine.c(211): warning C4101: 'l' : unreferenced local variable
+         kwayvolfm.c
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(52): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(53): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(54): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(151): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(22): warning C4101: 'u' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(22): warning C4101: 'kk' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(22): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(23): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(22): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(202): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(203): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(204): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(166): warning C4101: 'u' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(166): warning C4101: 'kk' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(166): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(436): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(437): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(438): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(406): warning C4101: 'gain' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(405): warning C4101: 'iii' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(405): warning C4101: 'u' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(405): warning C4101: 'kk' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(405): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(406): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(405): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(596): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(597): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(598): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(560): warning C4101: 'gain' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(559): warning C4101: 'iii' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(559): warning C4101: 'u' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(559): warning C4101: 'kk' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(559): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(808): warning C4101: 'iii' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(808): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1163): warning C4554: '<<' : check operator precedence for possible error; use parentheses to clarify precedence
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1091): warning C4101: 'pid' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1091): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1182): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1222): warning C4101: 'bndind' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1221): warning C4101: 'minvol' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1222): warning C4101: 'pwgts' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1221): warning C4101: 'nbnd' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1222): warning C4101: 'bndptr' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1221): warning C4101: 'mincut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1221): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1426): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayvolfm.c(1683): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+         kwayrefine.c
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayrefine.c(49): warning C4244: 'function' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayrefine.c(74): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayrefine.c(143): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayrefine.c(331): warning C4101: 'j' : unreferenced local variable
+         kwayfm.c
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(47): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(48): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(49): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(21): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(21): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(251): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(252): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(253): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(224): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(224): warning C4101: 'jj' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(481): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(482): warning C4244: '=' : conversion from 'float' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(483): warning C4244: '=' : conversion from 'double' to 'idxtype', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(454): warning C4101: 'iii' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(454): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kwayfm.c(454): warning C4101: 'jj' : unreferenced local variable
+         kvmetis.c
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(31): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(70): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(79): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(47): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(47): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(125): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(97): warning C4101: 'nvtxs' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(97): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(97): warning C4101: 'tvwgt' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(97): warning C4101: 'tpwgts2' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kvmetis.c(97): warning C4101: 'j' : unreferenced local variable
+         kmetis.c
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(31): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(70): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(79): warning C4305: 'function' : truncation from 'double' to 'float'
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(47): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(47): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(124): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(96): warning C4101: 'nvtxs' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(96): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(96): warning C4101: 'tvwgt' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(96): warning C4101: 'tpwgts2' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\kmetis.c(96): warning C4101: 'j' : unreferenced local variable
+         Generating Code...
+         Compiling...
+         initpart.c
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(104): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(105): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(106): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(107): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(119): warning C4013: 'rand' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(199): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(86): warning C4101: 'gain' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(84): warning C4101: 'icut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(84): warning C4101: 'mincut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(84): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(84): warning C4101: 'from' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(84): warning C4101: 'pass' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(230): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(231): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(232): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(233): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(214): warning C4101: 'gain' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(212): warning C4101: 'icut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(212): warning C4101: 'mincut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(212): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(212): warning C4101: 'from' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(212): warning C4101: 'pass' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(366): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(367): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(368): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(369): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(348): warning C4101: 'icut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(348): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(348): warning C4101: 'mincut' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(348): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(348): warning C4101: 'from' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(348): warning C4101: 'pass' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\initpart.c(348): warning C4101: 'j' : unreferenced local variable
+         graph.c
+     1>d:\sungeui\openccl\metis-4.0\lib\graph.c(101): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\graph.c(24): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\graph.c(300): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\graph.c(214): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\graph.c(365): warning C4013: 'rand' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\graph.c(445): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\graph.c(493): warning C4101: 'wgt' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\graph.c(556): warning C4101: 'wgt' : unreferenced local variable
+         frename.c
+         fortran.c
+     1>d:\sungeui\openccl\metis-4.0\lib\fortran.c(129): warning C4101: 'nedges' : unreferenced local variable
+         fm.c
+     1>d:\sungeui\openccl\metis-4.0\lib\fm.c(44): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\fm.c(22): warning C4101: 'me' : unreferenced local variable
+         estmem.c
+     1>d:\sungeui\openccl\metis-4.0\lib\estmem.c(47): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\estmem.c(48): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\estmem.c(50): warning C4244: '+=' : conversion from 'float' to 'int', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\estmem.c(24): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\estmem.c(24): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\estmem.c(24): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\estmem.c(99): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\estmem.c(100): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>d:\sungeui\openccl\metis-4.0\lib\estmem.c(102): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\estmem.c(113): warning C4101: 'nedges' : unreferenced local variable
+         debug.c
+     1>d:\sungeui\openccl\metis-4.0\lib\debug.c(119): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\debug.c(172): warning C4101: 'k' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\debug.c(172): warning C4101: 'l' : unreferenced local variable
+         compress.c
+     1>d:\sungeui\openccl\metis-4.0\lib\compress.c(151): warning C4013: '__GKfree' undefined; assuming extern returning int
+     1>d:\sungeui\openccl\metis-4.0\lib\compress.c(163): warning C4101: 'padjwgt' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\compress.c(163): warning C4101: 'pvwgt' : unreferenced local variable
+         coarsen.c
+         ccgraph.c
+     1>d:\sungeui\openccl\metis-4.0\lib\ccgraph.c(24): warning C4101: 'l' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\ccgraph.c(332): warning C4101: 'l' : unreferenced local variable
+         bucketsort.c
+         balance.c
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(24): warning C4101: 'id' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(23): warning C4101: 'gain' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(23): warning C4101: 'nvtxs' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(23): warning C4101: 'imax' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(23): warning C4101: 'i' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(24): warning C4101: 'ed' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(23): warning C4101: 'from' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(23): warning C4101: 'j' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(50): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(50): warning C4101: 'pass' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(176): warning C4101: 'me' : unreferenced local variable
+     1>d:\sungeui\openccl\metis-4.0\lib\balance.c(176): warning C4101: 'pass' : unreferenced local variable
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:".\Debug\metis.lib" /NOLOGO .\Debug\balance.obj
+         .\Debug\bucketsort.obj
+         .\Debug\ccgraph.obj
+         .\Debug\coarsen.obj
+         .\Debug\compress.obj
+         .\Debug\debug.obj
+         .\Debug\estmem.obj
+         .\Debug\fm.obj
+         .\Debug\fortran.obj
+         .\Debug\frename.obj
+         .\Debug\graph.obj
+         .\Debug\initpart.obj
+         .\Debug\kmetis.obj
+         .\Debug\kvmetis.obj
+         .\Debug\kwayfm.obj
+         .\Debug\kwayrefine.obj
+         .\Debug\kwayvolfm.obj
+         .\Debug\kwayvolrefine.obj
+         .\Debug\match.obj
+         .\Debug\mbalance.obj
+         .\Debug\mbalance2.obj
+         .\Debug\mcoarsen.obj
+         .\Debug\memory.obj
+         .\Debug\mesh.obj
+         .\Debug\meshpart.obj
+         .\Debug\mfm.obj
+         .\Debug\mfm2.obj
+         .\Debug\mincover.obj
+         .\Debug\minitpart.obj
+         .\Debug\minitpart2.obj
+         .\Debug\mkmetis.obj
+         .\Debug\mkwayfmh.obj
+         .\Debug\mkwayrefine.obj
+         .\Debug\mmatch.obj
+         .\Debug\mmd.obj
+         .\Debug\mpmetis.obj
+         .\Debug\mrefine.obj
+         .\Debug\mrefine2.obj
+         .\Debug\mutil.obj
+         .\Debug\myqsort.obj
+         .\Debug\ometis.obj
+         .\Debug\parmetis.obj
+         .\Debug\pmetis.obj
+         .\Debug\pqueue.obj
+         .\Debug\refine.obj
+         .\Debug\separator.obj
+         .\Debug\sfm.obj
+         .\Debug\srefine.obj
+         .\Debug\stat.obj
+         .\Debug\subdomains.obj
+         .\Debug\timing.obj
+         .\Debug\util.obj
+         metis.vcxproj -> D:\sungeui\OpenCCL\metis-4.0\Lib\.\Debug\metis.lib
+     1>Done Building Project "D:\sungeui\OpenCCL\metis-4.0\Lib\metis.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.08

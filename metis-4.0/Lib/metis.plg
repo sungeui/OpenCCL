@@ -1,0 +1,406 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: metis - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\sungeui\LOCALS~1\Temp\RSP271D.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "." /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "__VC__" /Fp"Release/metis.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\balance.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\bucketsort.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\ccgraph.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\coarsen.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\compress.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\debug.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\estmem.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\fm.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\fortran.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\frename.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\graph.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\initpart.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kmetis.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kvmetis.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayfm.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayrefine.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayvolfm.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayvolrefine.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\match.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mbalance.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mbalance2.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mcoarsen.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\memory.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mesh.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\meshpart.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mfm.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mfm2.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mincover.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\minitpart.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\minitpart2.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mkmetis.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mkwayfmh.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mkwayrefine.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mmatch.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mmd.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mpmetis.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mrefine.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mrefine2.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mutil.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\myqsort.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\ometis.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\parmetis.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\pmetis.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\pqueue.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\refine.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\separator.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\sfm.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\srefine.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\stat.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\subdomains.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\timing.c"
+"D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\util.c"
+]
+Creating command line "xicl6.exe @C:\DOCUME~1\sungeui\LOCALS~1\Temp\RSP271D.tmp" 
+Creating temporary file "C:\DOCUME~1\sungeui\LOCALS~1\Temp\RSP271E.tmp" with contents
+[
+/nologo /out:"Release\metis.lib" 
+".\Release\balance.obj"
+".\Release\bucketsort.obj"
+".\Release\ccgraph.obj"
+".\Release\coarsen.obj"
+".\Release\compress.obj"
+".\Release\debug.obj"
+".\Release\estmem.obj"
+".\Release\fm.obj"
+".\Release\fortran.obj"
+".\Release\frename.obj"
+".\Release\graph.obj"
+".\Release\initpart.obj"
+".\Release\kmetis.obj"
+".\Release\kvmetis.obj"
+".\Release\kwayfm.obj"
+".\Release\kwayrefine.obj"
+".\Release\kwayvolfm.obj"
+".\Release\kwayvolrefine.obj"
+".\Release\match.obj"
+".\Release\mbalance.obj"
+".\Release\mbalance2.obj"
+".\Release\mcoarsen.obj"
+".\Release\memory.obj"
+".\Release\mesh.obj"
+".\Release\meshpart.obj"
+".\Release\mfm.obj"
+".\Release\mfm2.obj"
+".\Release\mincover.obj"
+".\Release\minitpart.obj"
+".\Release\minitpart2.obj"
+".\Release\mkmetis.obj"
+".\Release\mkwayfmh.obj"
+".\Release\mkwayrefine.obj"
+".\Release\mmatch.obj"
+".\Release\mmd.obj"
+".\Release\mpmetis.obj"
+".\Release\mrefine.obj"
+".\Release\mrefine2.obj"
+".\Release\mutil.obj"
+".\Release\myqsort.obj"
+".\Release\ometis.obj"
+".\Release\parmetis.obj"
+".\Release\pmetis.obj"
+".\Release\pqueue.obj"
+".\Release\refine.obj"
+".\Release\separator.obj"
+".\Release\sfm.obj"
+".\Release\srefine.obj"
+".\Release\stat.obj"
+".\Release\subdomains.obj"
+".\Release\timing.obj"
+".\Release\util.obj"
+]
+Creating command line "xilink6.exe -lib @C:\DOCUME~1\sungeui\LOCALS~1\Temp\RSP271E.tmp"
+<h3>Output Window</h3>
+Compiling...
+balance.c
+bucketsort.c
+ccgraph.c
+coarsen.c
+compress.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\compress.c(151): warning #266: function declared implicitly
+    GKfree(&keys, &map, &mark, LTERM);
+    ^
+
+debug.c
+estmem.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\estmem.c(102): warning #266: function declared implicitly
+    GKfree(&cmap, &match, &perm, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\estmem.c(152): warning #266: function declared implicitly
+    GKfree(&htable, LTERM);
+    ^
+
+fm.c
+fortran.c
+frename.c
+graph.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\graph.c(445): warning #266: function declared implicitly
+    GKfree(&touched, &queue, &cptr, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\graph.c(544): warning #266: function declared implicitly
+    GKfree(&touched, &queue, &cptr, LTERM);
+    ^
+
+initpart.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\initpart.c(199): warning #266: function declared implicitly
+    GKfree(&bestwhere, &queue, &touched, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\initpart.c(337): warning #266: function declared implicitly
+    GKfree(&bestwhere, &queue, &touched, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\initpart.c(417): warning #266: function declared implicitly
+    GKfree(&bestwhere, &perm, LTERM);
+    ^
+
+kmetis.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kmetis.c(124): warning #266: function declared implicitly
+    GKfree(&graph->gdata, &graph->rdata, LTERM);
+    ^
+
+kvmetis.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kvmetis.c(125): warning #266: function declared implicitly
+    GKfree(&graph->gdata, &graph->rdata, LTERM);
+    ^
+
+kwayfm.c
+kwayrefine.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayrefine.c(74): warning #266: function declared implicitly
+      GKfree(&graph->gdata, LTERM);  /* Deallocate the graph related arrays */
+      ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayrefine.c(106): warning #266: function declared implicitly
+      GKfree(&graph->vwgt, &graph->adjwgt, LTERM);
+      ^
+
+kwayvolfm.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayvolfm.c(151): warning #266: function declared implicitly
+    GKfree(&marker, &updind, &phtable, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayvolfm.c(387): warning #266: function declared implicitly
+    GKfree(&marker, &updind, &phtable, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayvolfm.c(540): warning #266: function declared implicitly
+    GKfree(&marker, &updind, &phtable, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayvolfm.c(784): warning #266: function declared implicitly
+    GKfree(&marker, &updind, &phtable, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayvolfm.c(1604): warning #266: function declared implicitly
+    GKfree(&cand, &cand2, LTERM);
+    ^
+
+kwayvolrefine.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\kwayvolrefine.c(74): warning #266: function declared implicitly
+      GKfree(&graph->gdata, LTERM);  /* Deallocate the graph related arrays */
+      ^
+
+match.c
+mbalance.c
+mbalance2.c
+mcoarsen.c
+memory.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\memory.c(89): warning #266: function declared implicitly
+    GKfree(&ctrl->wspace.edegrees, &ctrl->wspace.vedegrees, &ctrl->wspace.core, &ctrl->wspace.pmat, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\memory.c(205): warning #266: function declared implicitly
+    GKfree(&graph->gdata, &graph->nvwgt, &graph->rdata, &graph->npwgts, LTERM);
+    ^
+
+mesh.c
+meshpart.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\meshpart.c(101): warning #266: function declared implicitly
+    GKfree(&xadj, &adjncy, &pwgts, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\meshpart.c(202): warning #266: function declared implicitly
+    GKfree(&xadj, &adjncy, &pwgts, &nptr, &nind, LTERM);
+    ^
+
+mfm.c
+mfm2.c
+mincover.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mincover.c(118): warning #266: function declared implicitly
+    GKfree(&mate, &flag, &level, &queue, &lst, LTERM);
+    ^
+
+minitpart.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\minitpart.c(95): warning #266: function declared implicitly
+    GKfree(&bestwhere, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\minitpart.c(164): warning #266: function declared implicitly
+    GKfree(&bestwhere, &perm, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\minitpart.c(248): warning #266: function declared implicitly
+      if ((cnum = SelectQueueOneWay(ncon, npwgts, tpwgts, from, parts)) == -1)
+                  ^
+
+minitpart2.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\minitpart2.c(95): warning #266: function declared implicitly
+    GKfree(&bestwhere, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\minitpart2.c(143): warning #266: function declared implicitly
+    GKfree(&bestwhere, LTERM);
+    ^
+
+mkmetis.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mkmetis.c(118): warning #266: function declared implicitly
+    GKfree(&graph->nvwgt, &graph->npwgts, &graph->gdata, &graph->rdata, LTERM);
+    ^
+
+mkwayfmh.c
+mkwayrefine.c
+mmatch.c
+mmd.c
+mpmetis.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mpmetis.c(125): warning #266: function declared implicitly
+    GKfree(&myubvec, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mpmetis.c(228): warning #266: function declared implicitly
+    GKfree(&myubvec, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mpmetis.c(268): warning #266: function declared implicitly
+    GKfree(&graph->gdata, &graph->nvwgt, &graph->rdata, &graph->npwgts, &graph->label, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\mpmetis.c(341): warning #266: function declared implicitly
+    GKfree(&graph->gdata, &graph->nvwgt, &graph->rdata, &graph->npwgts, &graph->label, LTERM);
+    ^
+
+mrefine.c
+mrefine2.c
+mutil.c
+myqsort.c
+ometis.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\ometis.c(138): warning #266: function declared implicitly
+        GKfree(&cptr, &cind, LTERM);
+        ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\ometis.c(170): warning #266: function declared implicitly
+      GKfree(&piperm, LTERM);
+      ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\ometis.c(184): warning #266: function declared implicitly
+      GKfree(&cptr, &cind, LTERM);
+      ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\ometis.c(303): warning #266: function declared implicitly
+    GKfree(&graph->gdata, &graph->rdata, &graph->label, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\ometis.c(360): warning #266: function declared implicitly
+    GKfree(&cptr, &cind, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\ometis.c(413): warning #266: function declared implicitly
+        GKfree(&graph->rdata, LTERM);
+        ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\ometis.c(447): warning #266: function declared implicitly
+        GKfree(&cgraph->rdata, LTERM);
+        ^
+
+parmetis.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\parmetis.c(143): warning #266: function declared implicitly
+        GKfree(&cptr, &cind, LTERM);
+        ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\parmetis.c(176): warning #266: function declared implicitly
+      GKfree(&cptr, &cind, LTERM);
+      ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\parmetis.c(204): warning #266: function declared implicitly
+      GKfree(&graph->gdata, &graph->rdata, &graph->label, LTERM);
+      ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\parmetis.c(239): warning #266: function declared implicitly
+    GKfree(&graph->gdata, &graph->rdata, &graph->label, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\parmetis.c(307): warning #266: function declared implicitly
+    GKfree(&graph.gdata, &graph.rdata, &graph.label, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\parmetis.c(366): warning #266: function declared implicitly
+    GKfree(&graph.gdata, &graph.rdata, &graph.label, LTERM);
+    ^
+
+pmetis.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\pmetis.c(138): warning #266: function declared implicitly
+    GKfree(&graph->gdata, &graph->rdata, &graph->label, LTERM);
+    ^
+
+pqueue.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\pqueue.c(110): warning #266: function declared implicitly
+        GKfree(&queue->nodes, &queue->buckets, LTERM);
+        ^
+
+refine.c
+separator.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\separator.c(40): warning #266: function declared implicitly
+    GKfree(&graph->rdata, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\separator.c(146): warning #266: function declared implicitly
+      GKfree(&bxadj, &badjncy, LTERM);
+      ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\separator.c(261): warning #266: function declared implicitly
+      GKfree(&bxadj, &badjncy, LTERM);
+      ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\separator.c(270): warning #266: function declared implicitly
+    GKfree(&graph->rdata, LTERM);
+    ^
+
+sfm.c
+srefine.c
+stat.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\stat.c(123): warning #266: function declared implicitly
+    GKfree(&kpwgts, &padjncy, &padjwgt, &padjcut, LTERM);
+    ^
+
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\stat.c(227): warning #266: function declared implicitly
+    GKfree(&kpwgts, &padjncy, &padjwgt, &padjcut, LTERM);
+    ^
+
+subdomains.c
+D:\sungeui\OoC\OoCVDR\metis-4.0\Lib\subdomains.c(885): warning #266: function declared implicitly
+    GKfree(&cand, &cand2, LTERM);
+    ^
+
+timing.c
+util.c
+Creating library...
+xilib: executing 'C:\PROGRA~1\MICROS~3\VC98\Bin\lib.exe'
+
+
+
+<h3>Results</h3>
+metis.lib - 0 error(s), 55 warning(s)
+</pre>
+</body>
+</html>
