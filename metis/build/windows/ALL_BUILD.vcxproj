@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{925388EA-421E-4F9F-A5BB-2A3950A18460}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\sungeui\metis\GKlib;D:\sungeui\metis\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\sungeui\metis\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/sungeui/metis/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -HD:/sungeui/metis -BD:/sungeui/metis/build/windows --check-stamp-file D:\sungeui\metis\build\windows\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/sungeui/metis/CMakeLists.txt;D:\sungeui\metis\CMakeLists.txt;D:\sungeui\metis\build\windows\CMakeFiles\3.2.2\CMakeSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInitialize.cmake;D:\sungeui\metis\build\windows\CMakeFiles\3.2.2\CMakeCCompiler.cmake;D:\sungeui\metis\build\windows\CMakeFiles\3.2.2\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;D:\sungeui\metis\build\windows\CMakeFiles\3.2.2\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\Platform\Windows-MSVC.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CMakeCommonLanguageInclude.cmake;D:\sungeui\metis\GKlib\GKlibSystem.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.2\Modules\CheckIncludeFile.cmake;D:\sungeui\metis\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\sungeui\metis\build\windows\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/sungeui/metis/build/windows/ZERO_CHECK.vcxproj">
+      <Project>479759A1-5409-4241-96C2-C462DAE3334D</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/sungeui/metis/build/windows/programs/cmpfillin.vcxproj">
+      <Project>50A98C75-5268-451B-9E9E-BFDDA779BE60</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/sungeui/metis/build/windows/programs/gpmetis.vcxproj">
+      <Project>B74C1128-C23A-4CC3-98A4-C8CB5F5F92FC</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/sungeui/metis/build/windows/programs/graphchk.vcxproj">
+      <Project>9DA732A7-9E56-4C1A-94A1-F54A9D4FCCC6</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/sungeui/metis/build/windows/programs/m2gmetis.vcxproj">
+      <Project>A8A8DB18-1E04-458D-943D-04C55B0CABE0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/sungeui/metis/build/windows/libmetis/metis.vcxproj">
+      <Project>AE63CA1E-C6F2-410F-A3DB-24642CF1B133</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/sungeui/metis/build/windows/programs/mpmetis.vcxproj">
+      <Project>36C818B9-A341-4376-9193-B6377FDBAF1F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/sungeui/metis/build/windows/programs/ndmetis.vcxproj">
+      <Project>B7359A8E-F8C8-4F88-B6FC-5637E5563C45</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

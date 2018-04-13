@@ -1,0 +1,13 @@
+﻿Build started 2018-04-12 오후 2:57:13.
+     1>Project "D:\sungeui\old\metis\build\windows\programs\graphchk.vcxproj" on node 7 (Rebuild target(s)).
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1430,5): warning : The referenced project 'D:/sungeui/metis/build/windows/ZERO_CHECK.vcxproj' does not exist.
+     1>C:\Program Files (x86)\MSBuild\12.0\bin\Microsoft.Common.CurrentVersion.targets(1430,5): warning : The referenced project 'D:/sungeui/metis/build/windows/libmetis/metis.vcxproj' does not exist.
+     1>CustomBuild:
+         Building Custom Rule D:/sungeui/metis/programs/CMakeLists.txt
+         지정된 경로를 찾을 수 없습니다.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(170,5): error MSB6006: "cmd.exe" exited with code 3.
+     1>Done Building Project "D:\sungeui\old\metis\build\windows\programs\graphchk.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.34
