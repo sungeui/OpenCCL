@@ -14,18 +14,19 @@ LDOPTIONS =
 AR = ar rv
 
 
-
-
-
-
 INCLUDES = -I../include
 CFLAGS = $(COPTIONS) $(OPTFLAGS) $(INCLUDES)
 
-LIBS = -lOpenCCL -lmetis -lm
-LD = $(CC) $(LDOPTIONS) -L. -L../Lib -Llibsrc/ -Lmetis
-METISLIB = ../Lib/libOpenCCL.a ../Lib/libmetis.a
-
-
+LBITS := $(shell getconf LONG_BIT)
+ifeq ($(LBITS),64)
+	LIBS = -lOpenCCL -lmetis_64bit -lm
+	LD = $(CC) $(LDOPTIONS) -L. -L../Lib -L../libsrc/ -Lmetis
+	METISLIB = ../Lib/libOpenCCL.a ../Lib/libmetis_64bit.a
+else
+	LIBS = -lOpenCCL -lmetis_32bit -lm
+	LD = $(CC) $(LDOPTIONS) -L. -L../Lib -L../libsrc/ -Lmetis
+	METISLIB = ../Lib/libOpenCCL.a ../Lib/libmetis_32bit.a
+endif
 
 MTESTOBJS = Demo.o 
 
