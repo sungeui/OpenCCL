@@ -1,9 +1,0 @@
-D:/sungeui/metis/build/windows/programs/CMakeFiles/ndmetis.dir
-D:/sungeui/metis/build/windows/CMakeFiles/ALL_BUILD.dir
-D:/sungeui/metis/build/windows/programs/CMakeFiles/graphchk.dir
-D:/sungeui/metis/build/windows/programs/CMakeFiles/mpmetis.dir
-D:/sungeui/metis/build/windows/libmetis/CMakeFiles/metis.dir
-D:/sungeui/metis/build/windows/CMakeFiles/ZERO_CHECK.dir
-D:/sungeui/metis/build/windows/programs/CMakeFiles/m2gmetis.dir
-D:/sungeui/metis/build/windows/programs/CMakeFiles/gpmetis.dir
-D:/sungeui/metis/build/windows/programs/CMakeFiles/cmpfillin.dir
