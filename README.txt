@@ -69,6 +69,19 @@ Lib: Contains pre-built libraries for WIN32 and linux
 ------------
 COMPILATION:
 ------------
+0. With CMake (We tested MacOS 10.13 64bit, Ubuntu 16.04 64bit and Windows 10 64bit)
+	a) Please install CMake (https://cmake.org/)
+	b) From the root directory of this repository, make a folder named 'build'
+	c) If OS is MacOS/Linux/Unix, 
+		cd build
+		cmake ..
+		make
+	d) Else if OS is Windows,
+		using a CMake GUI, set source directory as root directory 
+		of this repository and build directory as 'build' folder
+		and then 'configure' and 'generate'
+		(Please see more on https://cmake.org/runningcmake/)
+	e) Runnable example will be generated in build/example/
 
 1. Linux
 	a) Please go to "libsrc" directory and type "make"
